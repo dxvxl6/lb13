@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConsoleApp6</name>
+    </assembly>
+    <members>
+        <member name="T:Calculator">
+            <summary>
+            Этот класс представлен в виде простого калькулятора.
+            </summary>
+        </member>
+        <member name="M:Calculator.Sum(System.Int32,System.Int32)">
+            <summary>
+            Вычисляет сумму двух целых чисел.
+            </summary>
+            <param name="a">Первое число для сложения.</param>
+            <param name="b">Второе число для сложения.</param>
+            <returns>Сумма параметров a и b.</returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Генерируется, если одно из чисел меньше нуля.
+            </exception>
+        </member>
+    </members>
+</doc>
